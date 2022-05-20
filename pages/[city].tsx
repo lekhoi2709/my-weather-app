@@ -44,7 +44,9 @@ export default function City({city, data}: any){
          </Head>
          <main className="h-screen w-full">
             <CurrentStatus data={data} city={city}/>
-            <TodayWeather data={data}/>
+            <div className="flex justify-center">
+               <TodayWeather data={data}/>
+            </div>
          </main>
       </div>
    )
