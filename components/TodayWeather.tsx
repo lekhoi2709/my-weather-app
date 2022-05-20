@@ -12,10 +12,10 @@ export default function TodayWeather({ data }: any){
    })
 
    return (
-      <div className="flex rounded-2xl w-full h-[200px] pl-8 pt-4 text-sm overflow-x-auto bg-gray-400 bg-cover scrollbarw md:justify-between md:w-4/5">
+      <div className="flex rounded-2xl w-full h-[200px] pl-8 text-sm overflow-x-auto bg-gray-400 scrollbarw md:justify-between md:w-4/5">
          {filterData.slice(1).map((ele: any) => {
             return (
-               <div key={ele.dt_txt} className="text-white pr-8 flex flex-col justify-around items-center">
+               <div key={ele.dt_txt} className="text-white mr-8 flex flex-col justify-around items-center">
                   <p>{moment(ele.dt * 1000).format("HH:MM")}</p>
                   <Image src={`http://openweathermap.org/img/wn/${ele.weather[0].icon}@2x.png`} alt="weatherIcon" width={40} height={40}/>
                   <p>{ele.main.temp.toFixed(0)}&deg;</p>
