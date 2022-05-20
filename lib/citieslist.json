@@ -1,0 +1,72 @@
+[
+   {
+      "id": 1,
+      "name": "Ho Chi Minh city",
+      "coords": {
+         "lat": 10.762622,
+         "lng": 106.660172
+      },
+      "country": "VNM",
+      "slug": "ho-chi-minh-city-1"
+   },
+   {
+      "id": 2,
+      "name": "Tokyo",
+      "coords": {
+         "lat": 35.6897,
+         "lng": 139.6922
+      },
+      "country": "JPN",
+      "slug": "tokyo-2"
+   },
+   {
+      "id": 3,
+      "name": "New York",
+      "coords": {
+         "lat": 42.1497,
+         "lng": -74.9384
+      },
+      "country": "USA",
+      "slug": "new-york-3"
+   },
+   {
+      "id": 4,
+      "name": "London",
+      "coords": {
+         "lat": 51.509865,
+         "lng": -0.118092
+      },
+      "country": "GBR",
+      "slug": "london-4"
+   },
+   {
+      "id": 5,
+      "name": "Paris",
+      "coords": {
+         "lat": 48.864716,
+         "lng": 2.349014
+      },
+      "country": "FRA",
+      "slug": "paris-5"
+   },
+   {
+      "id": 6,
+      "name": "Bangkok",
+      "coords": {
+         "lat": 13.736717,
+         "lng": 100.523186
+      },
+      "country": "THA",
+      "slug": "bangkok-6"
+   },
+   {
+      "id": 7,
+      "name": "Delhi",
+      "coords": {
+         "lat": 28.644800,
+         "lng": 77.216721
+      },
+      "country": "IND",
+      "slug": "delhi-7"
+   }
+]
