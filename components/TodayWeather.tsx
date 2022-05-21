@@ -12,7 +12,7 @@ export default function TodayWeather({ data }: any){
    })
 
    return (
-      <div className="flex rounded-2xl w-full h-[200px] pl-8 text-sm overflow-x-auto bg-gray-400 scrollbarw md:justify-between md:w-4/5">
+      <div className="flex rounded-2xl w-full h-[200px] pl-8 text-sm overflow-x-auto bg-gray-400 scrollbarw md:justify-between">
          {filterData.slice(1).map((ele: any) => {
             return (
                <div key={ele.dt_txt} className="text-white mr-8 flex flex-col justify-around items-center">
